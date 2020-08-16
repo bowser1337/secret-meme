@@ -29,8 +29,14 @@ GoombasWrath.ps1
 ────────▀▀▀▀▀▀▀──────────▀▀▀▀▀▀▀────────
 #>
 
-Stop-Service -Force -Name MSSQLSERVER
-Set-Service MSSQLSERVER -StartupType Disabled
-Stop-Service -Force -Name W3SVC
-Set-Service W3SVC -StartupType Disabled
-
+Stop-Service -Force -Name 'MSSQL$MKSSQL'
+Set-Service 'MSSQL$MKSSQL' -StartupType Disabled
+Stop-Service -Force -Name 'W3SVC'
+Set-Service 'W3SVC' -StartupType Disabled
+Write-Host "shoutouts to simpleflips"
+Write-Host "every copy of super mario 64 is personalized"
+Write-Host "takema"
+Write-Host "take ma star"
+Write-Host "there is no consequence, you will be banned"
+Write-Host "rbdx didnt tell me i can add all this to the script so yall dont tell him. for realz"
+Write-Host "shoutouts to simpleflips"
